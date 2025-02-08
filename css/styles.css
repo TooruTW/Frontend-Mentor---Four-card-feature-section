@@ -26,25 +26,26 @@ main {
 }
 
 .text-content {
-  max-width: 28rem;
+  max-width: 30rem;
   min-width: 25rem;
   text-align: center;
-  margin: 4rem;
+  margin: 5rem;
+  margin-top: 5rem;
 }
 .text-content h2 {
   color: hsla(234, 12%, 34%, 0.95);
   font-weight: 200;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .text-content h1 {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .text-content p {
   margin-top: 1.5rem;
   color: hsla(234, 12%, 34%, 0.678);
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .card-container {
@@ -55,6 +56,7 @@ main {
   gap: 2rem;
 }
 .card-container .card {
+  background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   width: 23rem;
   height: 15rem;
@@ -72,9 +74,9 @@ main {
   flex-direction: column;
   justify-content: space-around;
 }
-.card-container .card .card-text h3 {
-  font-size: 1.3rem;
-  font-weight: 400;
+.card-container .card .card-text h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .card-container .card .card-text p {
   font-weight: 200;
